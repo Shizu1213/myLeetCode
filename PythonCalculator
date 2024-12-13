@@ -1,0 +1,27 @@
+calculator = input("What would you like to do")
+print("divide, multiply, add, subract")
+
+if calculator == "divide":
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    answer = num1 / num2
+
+elif calculator == "multiply":
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    answer = num1 * num2
+
+elif calculator == "add":
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    answer = num1 + num2
+
+elif calculator == "subtract":
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    answer = num1 - num2
+
+else:
+    answer = "Can not calculate"
+
+print(f"The result is: {answer}")
